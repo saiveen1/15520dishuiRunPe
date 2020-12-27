@@ -7,8 +7,6 @@ vs2019 win32 c++等级preview
 
 ### 文件目录
 
-![image-20201227145850525](E:\Win10_Main\windows_sd\own\Vs2017\15521_encryption_pack\ReadMe.assets\image-20201227145850525.png)
-
 LoadShell给shell加区段, 区段数据为demo
 
 shell为壳
