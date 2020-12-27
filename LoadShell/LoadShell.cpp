@@ -6,14 +6,17 @@
 #include "../shell/fileMethod.cpp"
 int main()
 {
+    char shellPath[256] = { 0 };
+    GetCurrentDirectoryA(256, shellPath);
+    strcat(shellPath, "\\shell.exe");
 
-#ifdef _DEBUG
-    char shellPath[] = "E:\\Win10_Main\\windows_sd\\own\\Vs2017\\15521_encryption_pack\\Debug\\shell.exe";
-#else
-    char shellPath[] = "E:\\Win10_Main\\windows_sd\\own\\Vs2017\\15521_encryption_pack\\release\\shell.exe";
-#endif
-   
-    char srcPath[] = "E:\\Win10_Main\\windows_sd\\own\\Vs2017\\15521_encryption_pack\\Debug\\demo.exe";
+//#ifdef _DEBUG
+//    char shellPath[] = "";
+//#else
+//    char shellPath[] = "";
+//#endif
+
+    char srcPath[] = "demo.exe";
 
     shellPe = std::make_unique<Pe>(shellPath);
 

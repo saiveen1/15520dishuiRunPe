@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15521加密壳", "15521加密壳\15521加密壳.vcxproj", "{12748429-6C32-486B-B9E5-279B9D57421A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadShell", "LoadShell\LoadShell.vcxproj", "{12748429-6C32-486B-B9E5-279B9D57421A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo", "demo\demo.vcxproj", "{FC577883-00F4-4121-AE34-951A087778E9}"
 EndProject
